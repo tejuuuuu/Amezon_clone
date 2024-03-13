@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: arial;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("Amazon-Logo.webp");
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+} */
+
+/* box2 */
+
+.add_first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+
+.add_second{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.add_icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+.nav_search{
+    display: flex;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+.search_input{
+    width: 700px;
+}
+
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+
+.search_input{
+    border: none;
+    font-size: 1rem;
+
+    /* box3 */
+}
+.lang{
+    font-weight: 700;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+/* box4 */
+
+span{
+    font-size: 0.7rem;
+}
+.ac{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box5 */
+
+.ret{
+    font-size: 0.7rem;
+}
+.or{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box6 */
+
+.cart{
+    display: flex;
+}
+.cart_para{
+    margin-left: 4px;
+    margin-top: 12px;
+}
+
+.cart_icon{
+    font-size: 30px;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+
+}
+
+.panel_ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel_ops{
+    width: 70%;
+}
+.hero_section{
+    background-image: url(hero.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero_msg{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 80%;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    font-size: 0.85rem;
+    position: relative;
+    bottom: 20px;
+   
+}
+.hero_msg a{
+    color: #007185;
+}
+
+/* shop_section */
+
+.shop_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 380px;
+    width: 23%;
+    margin-top: 25px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    
+}
+
+.box1_img{
+    background-image: url(fitness.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content p{
+    color: #007185;
+
+}
+
+.box2_img{
+    background-image: url(toy.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content2{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content2 p{
+    color: #007185;
+
+}
+
+.box3_img{
+    background-image: url(box3.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content3{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content3 p{
+    color: #007185;
+
+}
+
+.box4_img{
+    background-image: url(box4.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content4{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content4 p{
+    color: #007185;
+
+}
+
+.box5_img{
+    background-image: url(box5.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content5{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content5 p{
+    color: #007185;
+
+}
+
+.box6_img{
+    background-image: url(box6.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content6{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content6 p{
+    color: #007185;
+
+}
+
+.box7_img{
+    background-image: url(box7.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content7{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content7 p{
+    color: #007185;
+
+}
+
+.box8_img{
+    background-image: url(box8.jpg);
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box_content8{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.box_content8 p{
+    color: #007185;
+
+}
+
+/* footer */
+
+footer{
+    margin-top: 20px;
+}
+
+.foot_panel{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.foot_panel2{
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ul{
+    margin-top: 30px;
+}
+
+.foot_panel3{
+    height: 50px;
+    background-color:#222f3d;
+    border-top: 0.25px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.lang{
+    height: 30px;
+    border: 1px solid white;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+
+}
+.lang i{
+    margin-right: 8px;
+}
+
+.doller{
+    height: 30px;
+    border: 1px solid white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+
+}
+.doller i{
+    margin-right: 8px;
+}
+
+.state{
+    height: 30px;
+    border: 1px solid white;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dddddd;
+
+}
+.state i{
+    margin-right: 8px;
+} */
